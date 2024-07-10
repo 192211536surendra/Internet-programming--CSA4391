@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>John Doe</h1>
+<p>Email: john.doe@example.com | Phone: (123) 456-7890 | Location: City, State</p>
+
+<hr>
+
+<h2>Education</h2>
+<ul>
+    <li>Bachelor of Science in Computer Science, University Name, Graduation Year</li>
+</ul>
+
+<h2>Experience</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Duration</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ABC Inc.</td>
+            <td>Software Engineer</td>
+            <td>2019 - Present</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+        <tr>
+            <td>XYZ Corp.</td>
+            <td>Web Developer</td>
+            <td>2015 - 2019</td>
+            <td>Integer eget fermentum orci. Cras vitae tortor vestibulum.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML5, CSS3</li>
+    <li>JavaScript, jQuery</li>
+    <li>PHP, MySQL</li>
+    <li>Responsive Web Design</li>
+</ul>
+
+<h2>Projects</h2>
+<ol>
+    <li><a href="project1.html">Project 1 Name</a> - Description of project 1.</li>
+    <li><a href="project2.html">Project 2 Name</a> - Description of project 2.</li>
+</ol>
+
+</body>
+</html>
